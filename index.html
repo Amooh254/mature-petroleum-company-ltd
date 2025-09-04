@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mature Petroleum Company</title>
+  <style>
+    /* Reset & Basics */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Header */
+    header { 
+      background: #1b263b; 
+      color: white; 
+      padding: 30px 15px; 
+      text-align: center; 
+    }
+    header h1 { margin-bottom: 10px; }
+
+    /* Navbar */
+    nav { 
+      background: #0d1b2a; 
+      padding: 12px; 
+      text-align: center; 
+      position: sticky; 
+      top: 0; 
+      z-index: 1000;
+    }
+    nav a { 
+      color: white; 
+      margin: 0 20px; 
+      font-weight: bold; 
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #e63946; }
+
+    /* Sections */
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    section h2 { margin-bottom: 15px; color: #1b263b; }
+
+    /* Services */
+    .services ul { 
+      list-style: none; 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+      gap: 15px; 
+    }
+    .services li { 
+      background: #f4f4f4; 
+      padding: 20px; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+      text-align: center;
+    }
+
+    /* Contact Form */
+    form { display: grid; gap: 15px; max-width: 500px; margin: auto; }
+    input, textarea, button { padding: 12px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #1b263b; color: white; border: none; cursor: pointer; transition: background 0.3s; }
+    button:hover { background: #e63946; }
+
+    /* Footer */
+    footer { 
+      background: #1b263b; 
+      color: white; 
+      text-align: center; 
+      padding: 20px; 
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Mature Petroleum Company</h1>
+    <p>Your trusted energy partner in Kenya</p>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>At Mature Petroleum, we deliver high-quality petroleum products, lubricants, and energy solutions that fuel businesses and communities across Kenya.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded with a vision to provide reliable and sustainable energy, Mature Petroleum has grown to become a trusted partner in the fuel industry. Our mission is to supply premium products while maintaining the highest safety and customer service standards.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><h3>Fuel Distribution</h3><p>Supplying petrol, diesel, and kerosene to clients across Kenya.</p></li>
+      <li><h3>Lubricants</h3><p>Premium oils and lubricants for automotive and industrial use.</p></li>
+      <li><h3>Energy Consultation</h3><p>Expert advice to help businesses optimize their energy usage.</p></li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Reach us through the form below or our contact details.</p>
+    
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p style="margin-top:20px;">
+      📍 Buruburu, Nairobi, Kenya <br>
+      📞 +254 721593717<br>
+      ✉️ info@maturepetroleum.com
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mature Petroleum Company | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
